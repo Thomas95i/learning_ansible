@@ -13,9 +13,7 @@ server1
 server0
 
 [vm]
-server0
-server1
-server2
+server[0:2]
 
 [real] # On peut créer les groupes que l'on désire, 
        # les nommer comme on le désire et les laisser vide
