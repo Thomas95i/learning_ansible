@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - name: Make sure servers use the last ssh version
+      apt:
+        name: ssh
+        state: latest
