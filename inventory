@@ -1,0 +1,23 @@
+[all]
+server0 ansible_user=root
+server1 ansible_user=root
+server2 ansible_user=root
+
+[app]
+server2
+
+[db]
+server1
+
+[proxy]
+server0
+
+[vm]
+server0
+server1
+server2
+
+[real] # On peut créer les groupes que l'on désire, 
+       # les nommer comme on le désire et les laisser vide
+       # si on le désire (mauvaise pratique pour la dernière
+       # cependant...)
